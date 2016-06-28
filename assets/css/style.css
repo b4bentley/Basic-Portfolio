@@ -57,6 +57,8 @@ header div{
 
 .headerNav a:hover{
      color: #4aaaa5;
+     font-weight: bold;
+     font-size: 20px;
 }
 
 .headerlinks{
@@ -136,6 +138,22 @@ padding: 10px 20px;
 border: none;
 }
 
+/*button hover*/
+.button:hover{
+    opacity:0.5;
+}
+
+/*portfolio.html will need to add 260 for each new row*/
+.portfolioContent{
+    height: 725px;
+}
+
+.pcImages{
+    width: 590px;
+    height: 205px;
+    margin-bottom: 55px;
+}
+
 .sidebar{
     float:right;
     width: 270px;
@@ -156,6 +174,10 @@ border: none;
 .links{
     margin: 20px auto;
     width: 200px
+}
+
+.links a:hover{
+    opacity:0.2;
 }
 
 .push{
